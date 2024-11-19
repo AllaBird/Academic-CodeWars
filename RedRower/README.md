@@ -1,2 +1,0 @@
-# RedRower
-Academic
