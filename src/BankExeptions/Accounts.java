@@ -13,7 +13,7 @@ public class Accounts {
         }
 
         if (amt > balance) {
-            throw new InsuffitionFundsExeption();
+            throw new InsufflationException();
         }
         balance -= amt;
     }
