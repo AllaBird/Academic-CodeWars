@@ -1,6 +1,4 @@
 package BankExeptions;
 
-public class AccountDeactivatedExeption extends AccountSecurityExeption {
-
-
+public class AccountDeactivatedExeption extends AccountSecurityException {
 }

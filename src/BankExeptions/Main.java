@@ -8,11 +8,11 @@ public class Main {
             acct.debit(amt);
             return "Ok";
 
-        } catch (InsuffitionFundsExeption e) {
+        } catch (InsufflationException e) {
             return "Not enough money";
         } catch (AccountDeactivatedExeption e) {
             return "Account is not active";
-        } catch (BankingExeption e) {
+        } catch (BankingException e) {
             return e.getMessage();
         }
     }
