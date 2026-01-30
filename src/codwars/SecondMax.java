@@ -21,7 +21,7 @@ public class SecondMax {
         }
 
         public static void main(String[] args) {
-            System.out.println(secondMax(List.of(1, 15, 4 ,6 ,7, 9)));
+            System.out.println(secondMax(List.of(1, 15, 15, 4 ,6 ,7, 9)));
         }
     }
 
